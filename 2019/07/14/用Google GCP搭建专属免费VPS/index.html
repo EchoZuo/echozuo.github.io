@@ -14,7 +14,7 @@
   
 
 
-<html class="theme-next muse use-motion" lang="zh-CN">
+<html class="theme-next gemini use-motion" lang="zh-CN">
 <head><meta name="generator" content="Hexo 3.9.0">
   <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -68,7 +68,7 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Muse',
+    scheme: 'Gemini',
     version: '7.2.0',
     sidebar: {"position":"left","display":"post","offset":12,"onmobile":false},
     back2top: {"enable":true,"sidebar":false,"scrollpercent":false},
@@ -93,15 +93,15 @@
   };
 </script>
 
-  <meta name="description" content="郑重申明：本文用于记录、总结、分享云服务器自行搭建VPS的过程及方法。如将其作用于违反法律法规的事情，与本人无关。请遵守当地法律法规。简介感谢谷歌提供的GCP服务（Google Cloud Platform，谷歌云平台服务），首次注册激活GCP，你会获享12个月试用期和$300 赠金，是不是免费？ 请注意：教程很详细，图很多！   首先你需要准备： 谷歌账号以及能访问谷歌站点的一台电脑（首先你要能">
-<meta name="keywords" content="iOS Developer">
+  <meta name="description" content="郑重申明：本文用于记录、总结、分享云服务器自行搭建VPS的过程及方法。如将其作用于违反法律法规的事情，与本人无关。请遵守当地法律法规。简介感谢谷歌提供的GCP服务（Google Cloud Platform，谷歌云平台服务），首次注册激活GCP，你会获享12个月试用期和$300 赠金，是不是免费？ 请注意：教程很详细，图很多！     首先你需要准备： 谷歌账号以及能访问谷歌站点的一台电脑（首先你">
+<meta name="keywords" content="Google,谷歌,VPS">
 <meta property="og:type" content="article">
-<meta property="og:title" content="用Google GCP搭建专属免费VPS">
-<meta property="og:url" content="http://yoursite.com/2019/07/17/用Google GCP搭建专属免费VPS/index.html">
-<meta property="og:site_name" content="Echo Zuo">
-<meta property="og:description" content="郑重申明：本文用于记录、总结、分享云服务器自行搭建VPS的过程及方法。如将其作用于违反法律法规的事情，与本人无关。请遵守当地法律法规。简介感谢谷歌提供的GCP服务（Google Cloud Platform，谷歌云平台服务），首次注册激活GCP，你会获享12个月试用期和$300 赠金，是不是免费？ 请注意：教程很详细，图很多！   首先你需要准备： 谷歌账号以及能访问谷歌站点的一台电脑（首先你要能">
+<meta property="og:title" content="GCP搭建专属免费VPS">
+<meta property="og:url" content="http://yoursite.com/2019/07/14/用Google GCP搭建专属免费VPS/index.html">
+<meta property="og:site_name" content="Echo Zuo&#39;s Pit">
+<meta property="og:description" content="郑重申明：本文用于记录、总结、分享云服务器自行搭建VPS的过程及方法。如将其作用于违反法律法规的事情，与本人无关。请遵守当地法律法规。简介感谢谷歌提供的GCP服务（Google Cloud Platform，谷歌云平台服务），首次注册激活GCP，你会获享12个月试用期和$300 赠金，是不是免费？ 请注意：教程很详细，图很多！     首先你需要准备： 谷歌账号以及能访问谷歌站点的一台电脑（首先你">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/1424124-3e55062cb5b2e046.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="http://yoursite.com/2019/07/14/用Google%20GCP搭建专属免费VPS/111.png">
 <meta property="og:image" content="https://upload-images.jianshu.io/upload_images/1424124-0f289586017de207.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
 <meta property="og:image" content="https://upload-images.jianshu.io/upload_images/1424124-6f5d7505f043f8e3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
 <meta property="og:image" content="https://upload-images.jianshu.io/upload_images/1424124-e6e4c5ef0859c943.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
@@ -123,21 +123,21 @@
 <meta property="og:image" content="https://upload-images.jianshu.io/upload_images/1424124-73b3b2990d84fac5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
 <meta property="og:image" content="https://upload-images.jianshu.io/upload_images/1424124-123683109b120909.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
 <meta property="og:image" content="https://upload-images.jianshu.io/upload_images/1424124-120f954ac1d1aa26.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
-<meta property="og:updated_time" content="2019-07-17T15:42:35.448Z">
+<meta property="og:updated_time" content="2019-07-18T10:25:57.213Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="用Google GCP搭建专属免费VPS">
-<meta name="twitter:description" content="郑重申明：本文用于记录、总结、分享云服务器自行搭建VPS的过程及方法。如将其作用于违反法律法规的事情，与本人无关。请遵守当地法律法规。简介感谢谷歌提供的GCP服务（Google Cloud Platform，谷歌云平台服务），首次注册激活GCP，你会获享12个月试用期和$300 赠金，是不是免费？ 请注意：教程很详细，图很多！   首先你需要准备： 谷歌账号以及能访问谷歌站点的一台电脑（首先你要能">
-<meta name="twitter:image" content="https://upload-images.jianshu.io/upload_images/1424124-3e55062cb5b2e046.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta name="twitter:title" content="GCP搭建专属免费VPS">
+<meta name="twitter:description" content="郑重申明：本文用于记录、总结、分享云服务器自行搭建VPS的过程及方法。如将其作用于违反法律法规的事情，与本人无关。请遵守当地法律法规。简介感谢谷歌提供的GCP服务（Google Cloud Platform，谷歌云平台服务），首次注册激活GCP，你会获享12个月试用期和$300 赠金，是不是免费？ 请注意：教程很详细，图很多！     首先你需要准备： 谷歌账号以及能访问谷歌站点的一台电脑（首先你">
+<meta name="twitter:image" content="http://yoursite.com/2019/07/14/用Google%20GCP搭建专属免费VPS/111.png">
 
 
 
-  <link rel="alternate" href="/atom.xml" title="Echo Zuo" type="application/atom+xml">
+  <link rel="alternate" href="/atom.xml" title="Echo Zuo's Pit" type="application/atom+xml">
 
 
 
   
   
-  <link rel="canonical" href="http://yoursite.com/2019/07/17/用Google GCP搭建专属免费VPS/">
+  <link rel="canonical" href="http://yoursite.com/2019/07/14/用Google GCP搭建专属免费VPS/">
 
 
 
@@ -148,7 +148,7 @@
 </script>
 
   
-  <title>用Google GCP搭建专属免费VPS | Echo Zuo</title>
+  <title>GCP搭建专属免费VPS | Echo Zuo's Pit</title>
   
 
 
@@ -207,13 +207,13 @@
     <div class="custom-logo-site-title">
       <a href="/" class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">Echo Zuo</span>
+        <span class="site-title">Echo Zuo's Pit</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
     
       
-        <p class="site-subtitle">iOS Developer</p>
+        <p class="site-subtitle">古尔班通古特。</p>
       
     
     
@@ -321,9 +321,6 @@
   
 
   
-    
-
-  
 
   
 </nav>
@@ -347,6 +344,9 @@
       <div class="main-inner">
         <div class="content-wrap">
           
+            
+
+          
           <div id="content" class="content">
             
 
@@ -366,16 +366,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/07/17/用Google GCP搭建专属免费VPS/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/07/14/用Google GCP搭建专属免费VPS/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Echo Zuo">
-      <meta itemprop="description" content="iOS Developer">
+      <meta itemprop="description" content="iOS Dev, Apple Fans, Digital Enthusiast">
       <meta itemprop="image" content="/images/avatar.png">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Echo Zuo">
+      <meta itemprop="name" content="Echo Zuo's Pit">
     </span>
 
     
@@ -383,7 +383,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">用Google GCP搭建专属免费VPS
+          <h1 class="post-title" itemprop="name headline">GCP搭建专属免费VPS
 
               
             
@@ -409,7 +409,7 @@
                 
               
 
-              <time title="创建时间：2019-07-17 23:42:00 / 修改时间：23:42:35" itemprop="dateCreated datePublished" datetime="2019-07-17T23:42:00+08:00">2019-07-17</time>
+              <time title="创建时间：2019-07-14 00:00:00" itemprop="dateCreated datePublished" datetime="2019-07-14T00:00:00+08:00">2019-07-14</time>
             </span>
           
 
@@ -417,8 +417,33 @@
             
 
             
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-07-18 18:25:57" itemprop="dateModified" datetime="2019-07-18T18:25:57+08:00">2019-07-18</time>
+              </span>
+            
           
 
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Server/" itemprop="url" rel="index"><span itemprop="name">Server</span></a></span>
+
+                
+                
+              
+            </span>
           
 
           
@@ -464,7 +489,9 @@
         <h3 id="郑重申明：本文用于记录、总结、分享云服务器自行搭建VPS的过程及方法。如将其作用于违反法律法规的事情，与本人无关。请遵守当地法律法规。"><a href="#郑重申明：本文用于记录、总结、分享云服务器自行搭建VPS的过程及方法。如将其作用于违反法律法规的事情，与本人无关。请遵守当地法律法规。" class="headerlink" title="郑重申明：本文用于记录、总结、分享云服务器自行搭建VPS的过程及方法。如将其作用于违反法律法规的事情，与本人无关。请遵守当地法律法规。"></a>郑重申明：本文用于记录、总结、分享云服务器自行搭建VPS的过程及方法。如将其作用于违反法律法规的事情，与本人无关。请遵守当地法律法规。</h3><h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><h4 id="感谢谷歌提供的GCP服务（Google-Cloud-Platform，谷歌云平台服务），首次注册激活GCP，你会获享12个月试用期和-300-赠金，是不是免费？"><a href="#感谢谷歌提供的GCP服务（Google-Cloud-Platform，谷歌云平台服务），首次注册激活GCP，你会获享12个月试用期和-300-赠金，是不是免费？" class="headerlink" title="感谢谷歌提供的GCP服务（Google Cloud Platform，谷歌云平台服务），首次注册激活GCP，你会获享12个月试用期和$300 赠金，是不是免费？"></a>感谢谷歌提供的GCP服务（<a href="https://cloud.google.com" target="_blank" rel="noopener">Google Cloud Platform，谷歌云平台服务</a>），首次注册激活GCP，你会获享12个月试用期和$300 赠金，是不是免费？</h4><blockquote>
 <p>请注意：教程很详细，图很多！</p>
 </blockquote>
-<p><img src="https://upload-images.jianshu.io/upload_images/1424124-3e55062cb5b2e046.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p>
+<!-- ![image.png](https://upload-images.jianshu.io/upload_images/1424124-3e55062cb5b2e046.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240) -->
+<img src="/2019/07/14/用Google%20GCP搭建专属免费VPS/111.png" title="This is an example image">
+
 <h3 id="首先你需要准备："><a href="#首先你需要准备：" class="headerlink" title="首先你需要准备："></a>首先你需要准备：</h3><ul>
 <li><h5 id="谷歌账号以及能访问谷歌站点的一台电脑（首先你要能登录谷歌GCP）"><a href="#谷歌账号以及能访问谷歌站点的一台电脑（首先你要能登录谷歌GCP）" class="headerlink" title="谷歌账号以及能访问谷歌站点的一台电脑（首先你要能登录谷歌GCP）"></a>谷歌账号以及能访问谷歌站点的一台电脑（首先你要能登录谷歌GCP）</h5></li>
 <li><h5 id="外币卡（VISA、Mastercard、AE）（实测招行VISA全币种卡可以）"><a href="#外币卡（VISA、Mastercard、AE）（实测招行VISA全币种卡可以）" class="headerlink" title="外币卡（VISA、Mastercard、AE）（实测招行VISA全币种卡可以）"></a>外币卡（VISA、Mastercard、AE）（实测招行VISA全币种卡可以）</h5></li>
@@ -604,10 +631,67 @@
       
     
     
+      <div>
+        <div id="reward-container">
+  <div></div>
+  <button id="reward-button" disable="enable" onclick="var qr = document.getElementById(&quot;qr&quot;); qr.style.display = (qr.style.display === 'none') ? 'block' : 'none';">
+    打赏
+  </button>
+  <div id="qr" style="display: none;">
+
+    
+      
+      
+        
+      
+      <div style="display: inline-block">
+        <img src="/images/wechatpay.png" alt="Echo Zuo 微信支付">
+        <p>微信支付</p>
+      </div>
+    
+      
+      
+        
+      
+      <div style="display: inline-block">
+        <img src="/images/alipay.png" alt="Echo Zuo 支付宝">
+        <p>支付宝</p>
+      </div>
+    
+
+  </div>
+</div>
+
+      </div>
+    
 
     
 
+    <div>
+      
+       <div>
+    
+        <div style="text-align:center;color: #ccc;font-size:14px;"><br>-------------本文结束<i class="fa fa-paw"></i>感谢您的阅读-------------<br><br><br></div>
+    
+</div>
+    
+    </div>
+
+
     <footer class="post-footer">
+      
+        
+          
+        
+        <div class="post-tags">
+          
+            <a href="/tags/Google/" rel="tag"><i class="fa fa-tag"></i> Google</a>
+          
+            <a href="/tags/谷歌/" rel="tag"><i class="fa fa-tag"></i> 谷歌</a>
+          
+            <a href="/tags/VPS/" rel="tag"><i class="fa fa-tag"></i> VPS</a>
+          
+        </div>
       
 
       
@@ -618,18 +702,14 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2019/07/15/hello-world/" rel="next" title="Hello World">
-                <i class="fa fa-chevron-left"></i> Hello World
-              </a>
-            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2019/07/17/test/" rel="prev" title="test">
-                test <i class="fa fa-chevron-right"></i>
+              <a href="/2019/07/15/hello-world/" rel="prev" title="Hello World">
+                Hello World <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -692,7 +772,7 @@
     <img class="site-author-image" itemprop="image" src="/images/avatar.png" alt="Echo Zuo">
   
   <p class="site-author-name" itemprop="name">Echo Zuo</p>
-  <div class="site-description motion-element" itemprop="description">iOS Developer</div>
+  <div class="site-description motion-element" itemprop="description">iOS Dev, Apple Fans, Digital Enthusiast</div>
 </div>
 
 
@@ -702,7 +782,7 @@
         
           <a href="/archives/">
         
-          <span class="site-state-item-count">4</span>
+          <span class="site-state-item-count">2</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -723,7 +803,7 @@
         
           
         
-        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-count">1</span>
         <span class="site-state-item-name">分类</span>
         </a>
       </div>
@@ -744,7 +824,13 @@
         
           
         
-        <span class="site-state-item-count">2</span>
+          
+        
+          
+        
+          
+        
+        <span class="site-state-item-count">3</span>
         <span class="site-state-item-name">标签</span>
         </a>
       </div>
@@ -885,7 +971,7 @@
 
 
 
-  <div class="theme-info">主题 – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> v7.2.0</div>
+  <div class="theme-info">主题 – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> v7.2.0</div>
 
 
 
@@ -995,7 +1081,10 @@
   
 
 
-  <script src="/js/schemes/muse.js?v=7.2.0"></script>
+  <script src="/js/affix.js?v=7.2.0"></script>
+
+  <script src="/js/schemes/pisces.js?v=7.2.0"></script>
+
 
 
 
