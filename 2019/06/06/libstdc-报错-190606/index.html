@@ -93,21 +93,22 @@
   };
 </script>
 
-  <meta name="description" content="无数用户钟爱 Apple 自带「提醒事项」和「日历」应用，用来管理日常日程确实很方便，尤其是对于使用苹果三件套的用户来说多设备之间无缝衔接同步更为便利。但也因其功能限制，招人吐槽。例如无法查看国内节假日（老版本系统），无法查看国内法定假期补班调休等。 #####  那么，如何在Mac OSX 或者iOS系统自带日历软件中加入中国节假日以及法定假期补班调休日历？ 两种方式1. 订阅制 优点：一次订">
-<meta name="keywords" content="Mac技巧,Mac日历,iPhone日历,日历,共享">
+  <meta name="description" content="最新处理方案已经更新，可直接跳过到文章结尾查看处理方案！ 新增脚本处理方案。   报错内容library not found for -lstdc++.6.0.9错误截图 这个错误原因是因为iOS12.0之后去掉了lstdc++.6.0.9.tbd动态库，如下图搜索便知： iOS12.0中全部采用libc++代替lstdc++的动态库（如下图），具体原因可以参考：http://www.cnblo">
+<meta name="keywords" content="iOS,Xcode,libstdc++,Objective-C">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Mac &amp; iPhone 日历中加入国内法定假期（共享）2019 最新">
-<meta property="og:url" content="http://yoursite.com/2019/01/02/Mac&iPhone日历中加入国内法定假期（共享）2019 最新/index.html">
+<meta property="og:title" content="Xcode10、Xcode 11 beta 运行libstdc++报错解决方案">
+<meta property="og:url" content="http://yoursite.com/2019/06/06/libstdc-报错-190606/index.html">
 <meta property="og:site_name" content="Echo Zuo&#39;s Pit">
-<meta property="og:description" content="无数用户钟爱 Apple 自带「提醒事项」和「日历」应用，用来管理日常日程确实很方便，尤其是对于使用苹果三件套的用户来说多设备之间无缝衔接同步更为便利。但也因其功能限制，招人吐槽。例如无法查看国内节假日（老版本系统），无法查看国内法定假期补班调休等。 #####  那么，如何在Mac OSX 或者iOS系统自带日历软件中加入中国节假日以及法定假期补班调休日历？ 两种方式1. 订阅制 优点：一次订">
+<meta property="og:description" content="最新处理方案已经更新，可直接跳过到文章结尾查看处理方案！ 新增脚本处理方案。   报错内容library not found for -lstdc++.6.0.9错误截图 这个错误原因是因为iOS12.0之后去掉了lstdc++.6.0.9.tbd动态库，如下图搜索便知： iOS12.0中全部采用libc++代替lstdc++的动态库（如下图），具体原因可以参考：http://www.cnblo">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/1424124-c3b8eb9441d09d4a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
-<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/1424124-e9d9c0fb97df2100.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
-<meta property="og:updated_time" content="2019-07-23T11:13:29.000Z">
+<meta property="og:image" content="https://echozuo-github-io.oss-cn-shanghai.aliyuncs.com/blog-hexo/2019-06-06/1.png">
+<meta property="og:image" content="https://echozuo-github-io.oss-cn-shanghai.aliyuncs.com/blog-hexo/2019-06-06/2.png">
+<meta property="og:image" content="https://echozuo-github-io.oss-cn-shanghai.aliyuncs.com/blog-hexo/2019-06-06/3.png">
+<meta property="og:updated_time" content="2019-08-01T06:08:12.577Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Mac &amp; iPhone 日历中加入国内法定假期（共享）2019 最新">
-<meta name="twitter:description" content="无数用户钟爱 Apple 自带「提醒事项」和「日历」应用，用来管理日常日程确实很方便，尤其是对于使用苹果三件套的用户来说多设备之间无缝衔接同步更为便利。但也因其功能限制，招人吐槽。例如无法查看国内节假日（老版本系统），无法查看国内法定假期补班调休等。 #####  那么，如何在Mac OSX 或者iOS系统自带日历软件中加入中国节假日以及法定假期补班调休日历？ 两种方式1. 订阅制 优点：一次订">
-<meta name="twitter:image" content="https://upload-images.jianshu.io/upload_images/1424124-c3b8eb9441d09d4a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta name="twitter:title" content="Xcode10、Xcode 11 beta 运行libstdc++报错解决方案">
+<meta name="twitter:description" content="最新处理方案已经更新，可直接跳过到文章结尾查看处理方案！ 新增脚本处理方案。   报错内容library not found for -lstdc++.6.0.9错误截图 这个错误原因是因为iOS12.0之后去掉了lstdc++.6.0.9.tbd动态库，如下图搜索便知： iOS12.0中全部采用libc++代替lstdc++的动态库（如下图），具体原因可以参考：http://www.cnblo">
+<meta name="twitter:image" content="https://echozuo-github-io.oss-cn-shanghai.aliyuncs.com/blog-hexo/2019-06-06/1.png">
 
 
 
@@ -117,7 +118,7 @@
 
   
   
-  <link rel="canonical" href="http://yoursite.com/2019/01/02/Mac&iPhone日历中加入国内法定假期（共享）2019 最新/">
+  <link rel="canonical" href="http://yoursite.com/2019/06/06/libstdc-报错-190606/">
 
 
 
@@ -128,7 +129,7 @@
 </script>
 
   
-  <title>Mac & iPhone 日历中加入国内法定假期（共享）2019 最新 | Echo Zuo's Pit</title>
+  <title>Xcode10、Xcode 11 beta 运行libstdc++报错解决方案 | Echo Zuo's Pit</title>
   
 
 
@@ -346,7 +347,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/01/02/Mac&iPhone日历中加入国内法定假期（共享）2019 最新/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/06/06/libstdc-报错-190606/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Echo Zuo">
@@ -363,7 +364,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Mac & iPhone 日历中加入国内法定假期（共享）2019 最新
+          <h1 class="post-title" itemprop="name headline">Xcode10、Xcode 11 beta 运行libstdc++报错解决方案
 
               
             
@@ -389,7 +390,7 @@
                 
               
 
-              <time title="创建时间：2019-01-02 00:00:00" itemprop="dateCreated datePublished" datetime="2019-01-02T00:00:00+08:00">2019-01-02</time>
+              <time title="创建时间：2019-06-06 00:00:00" itemprop="dateCreated datePublished" datetime="2019-06-06T00:00:00+08:00">2019-06-06</time>
             </span>
           
 
@@ -404,7 +405,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2019-07-23 19:13:29" itemprop="dateModified" datetime="2019-07-23T19:13:29+08:00">2019-07-23</time>
+                <time title="修改时间：2019-08-01 14:08:12" itemprop="dateModified" datetime="2019-08-01T14:08:12+08:00">2019-08-01</time>
               </span>
             
           
@@ -418,7 +419,14 @@
                 <span class="post-meta-item-text">分类于</span>
               
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Mac/" itemprop="url" rel="index"><span itemprop="name">Mac</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/iOS-Dev/" itemprop="url" rel="index"><span itemprop="name">iOS Dev</span></a></span>
+
+                
+                
+                  ，
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/iOS-Dev/Xcode/" itemprop="url" rel="index"><span itemprop="name">Xcode</span></a></span>
 
                 
                 
@@ -466,44 +474,30 @@
       
 
       
-        <blockquote>
-<h4 id="无数用户钟爱-Apple-自带「提醒事项」和「日历」应用，用来管理日常日程确实很方便，尤其是对于使用苹果三件套的用户来说多设备之间无缝衔接同步更为便利。但也因其功能限制，招人吐槽。例如无法查看国内节假日（老版本系统），无法查看国内法定假期补班调休等。"><a href="#无数用户钟爱-Apple-自带「提醒事项」和「日历」应用，用来管理日常日程确实很方便，尤其是对于使用苹果三件套的用户来说多设备之间无缝衔接同步更为便利。但也因其功能限制，招人吐槽。例如无法查看国内节假日（老版本系统），无法查看国内法定假期补班调休等。" class="headerlink" title="无数用户钟爱 Apple 自带「提醒事项」和「日历」应用，用来管理日常日程确实很方便，尤其是对于使用苹果三件套的用户来说多设备之间无缝衔接同步更为便利。但也因其功能限制，招人吐槽。例如无法查看国内节假日（老版本系统），无法查看国内法定假期补班调休等。"></a>无数用户钟爱 Apple 自带「提醒事项」和「日历」应用，用来管理日常日程确实很方便，尤其是对于使用苹果三件套的用户来说多设备之间无缝衔接同步更为便利。但也因其功能限制，招人吐槽。例如无法查看国内节假日（老版本系统），无法查看国内法定假期补班调休等。</h4></blockquote>
-<p>#####</p>
-<blockquote>
-<h4 id="那么，如何在Mac-OSX-或者iOS系统自带日历软件中加入中国节假日以及法定假期补班调休日历？"><a href="#那么，如何在Mac-OSX-或者iOS系统自带日历软件中加入中国节假日以及法定假期补班调休日历？" class="headerlink" title="那么，如何在Mac OSX 或者iOS系统自带日历软件中加入中国节假日以及法定假期补班调休日历？"></a>那么，如何在Mac OSX 或者iOS系统自带日历软件中加入中国节假日以及法定假期补班调休日历？</h4></blockquote>
-<h2 id="两种方式"><a href="#两种方式" class="headerlink" title="两种方式"></a><em>两种方式</em></h2><h4 id="1-订阅制"><a href="#1-订阅制" class="headerlink" title="1. 订阅制"></a>1. 订阅制</h4><ul>
-<li>优点：一次订阅，终身使用。（当前前提是不删除订阅并且提供方一直更新日历信息）。</li>
-<li>缺点：无法编辑订阅日历，只读模式。<h4 id="2-直接下载导入日历"><a href="#2-直接下载导入日历" class="headerlink" title="2. 直接下载导入日历"></a>2. 直接下载导入日历</h4></li>
-<li>优点：可以后期自行编辑下载的日历信息。</li>
-<li>缺点：日历订阅方更新日历信息后，用户无法实时更新日历信息，需要再次下载日历导入。</li>
+        <ul>
+<li>最新处理方案已经更新，可直接跳过到文章结尾查看处理方案！</li>
+<li>新增脚本处理方案。</li>
 </ul>
-<blockquote>
-<p>订阅制还有一个缺点就是，日历订阅提供方可以修改日历加入更多广告！这点用户可能无法避免，但是可以选择订阅的日历免提醒！当然我提供日历订阅只是为了方便大家，并非为了打广告！哈哈！</p>
-</blockquote>
-<h2 id="订阅或者导入日历方式"><a href="#订阅或者导入日历方式" class="headerlink" title="订阅或者导入日历方式"></a><em>订阅或者导入日历方式</em></h2><h5 id="订阅地址："><a href="#订阅地址：" class="headerlink" title="订阅地址："></a>订阅地址：</h5><h6 id="webcal-p10-calendars-icloud-com-published-2-MTI3Njk0MTQxNzEyNzY5NFRvxM53AOH-Px17vHeUETlZdUggoyEt2KnFiIqHg40FkRXfcQJjYoa2dULRarI9z4UlbHxK-kLOohfiRVSSP7Q"><a href="#webcal-p10-calendars-icloud-com-published-2-MTI3Njk0MTQxNzEyNzY5NFRvxM53AOH-Px17vHeUETlZdUggoyEt2KnFiIqHg40FkRXfcQJjYoa2dULRarI9z4UlbHxK-kLOohfiRVSSP7Q" class="headerlink" title="webcal://p10-calendars.icloud.com/published/2/MTI3Njk0MTQxNzEyNzY5NFRvxM53AOH-Px17vHeUETlZdUggoyEt2KnFiIqHg40FkRXfcQJjYoa2dULRarI9z4UlbHxK-kLOohfiRVSSP7Q"></a>webcal://p10-calendars.icloud.com/published/2/MTI3Njk0MTQxNzEyNzY5NFRvxM53AOH-Px17vHeUETlZdUggoyEt2KnFiIqHg40FkRXfcQJjYoa2dULRarI9z4UlbHxK-kLOohfiRVSSP7Q</h6><h5 id="下载日历ics文件地址："><a href="#下载日历ics文件地址：" class="headerlink" title="下载日历ics文件地址："></a>下载日历ics文件地址：</h5><h6 id="http-p10-calendars-icloud-com-published-2-MTI3Njk0MTQxNzEyNzY5NFRvxM53AOH-Px17vHeUETlZdUggoyEt2KnFiIqHg40FkRXfcQJjYoa2dULRarI9z4UlbHxK-kLOohfiRVSSP7Q"><a href="#http-p10-calendars-icloud-com-published-2-MTI3Njk0MTQxNzEyNzY5NFRvxM53AOH-Px17vHeUETlZdUggoyEt2KnFiIqHg40FkRXfcQJjYoa2dULRarI9z4UlbHxK-kLOohfiRVSSP7Q" class="headerlink" title="http://p10-calendars.icloud.com/published/2/MTI3Njk0MTQxNzEyNzY5NFRvxM53AOH-Px17vHeUETlZdUggoyEt2KnFiIqHg40FkRXfcQJjYoa2dULRarI9z4UlbHxK-kLOohfiRVSSP7Q"></a><a href="http://p10-calendars.icloud.com/published/2/MTI3Njk0MTQxNzEyNzY5NFRvxM53AOH-Px17vHeUETlZdUggoyEt2KnFiIqHg40FkRXfcQJjYoa2dULRarI9z4UlbHxK-kLOohfiRVSSP7Q" target="_blank" rel="noopener">http://p10-calendars.icloud.com/published/2/MTI3Njk0MTQxNzEyNzY5NFRvxM53AOH-Px17vHeUETlZdUggoyEt2KnFiIqHg40FkRXfcQJjYoa2dULRarI9z4UlbHxK-kLOohfiRVSSP7Q</a></h6><h4 id="订阅制"><a href="#订阅制" class="headerlink" title="订阅制"></a>订阅制</h4><h5 id="Mac-OSX"><a href="#Mac-OSX" class="headerlink" title="Mac OSX"></a>Mac OSX</h5><ul>
-<li>复制上方订阅地址</li>
-<li>打开Mac OSX 自带日历应用</li>
-<li>点击左上角文件—新建日历订阅，将复制的订阅地址粘贴，点击订阅。</li>
-<li>如下图，上面会有一些配置信息，可以做修改。例如可以选择自动刷新频率（意思就是如果日历有修改，你多久更新一次）；还有可以忽略日历提醒。（不懂的话可以@我帮大家说明）。</li>
-<li>点击“好”之后即可订阅成功，在日历中即可看到刚才订阅的日历。</li>
-<li>如果要取消订阅，在左边日历列表栏中选中订阅的日历，右键—取消订阅。也可修改配置或者将订阅地址URL拷贝共享给更多朋友。<br>#####<br><img src="https://upload-images.jianshu.io/upload_images/1424124-c3b8eb9441d09d4a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="1"></li>
-</ul>
-<h5 id="iOS"><a href="#iOS" class="headerlink" title="iOS"></a>iOS</h5><ul>
-<li>和Mac OSX不同的是，iOS系统日历软件中没有直接提供订阅日历的入口（或者我没找到，有谁找到了可以@我修改一下文章），所以这里借助备忘录实现订阅功能。</li>
-<li>新建一备忘录，将订阅地址复制粘贴到备忘录中，点击右上角完成。然后点击订阅地址，会弹框“是否订阅日历“法定节假””，点击订阅，会提示“已添加日历“法定节假日””，然后点击显示日程即可查看订阅日历。</li>
-<li>也可以直接复制订阅地址到Safari中直接打开（必须且Safari），同样多的操作步骤，即可订阅！</li>
-<li>如果使用Mac和iOS同步日历的用户，可以直接通过Mac订阅且位置选择iCloud，即可同步到订阅日历到iOS设备，也很便利。<br>##### </li>
-</ul>
-<h4 id="直接下载导入日历"><a href="#直接下载导入日历" class="headerlink" title="直接下载导入日历"></a>直接下载导入日历</h4><h5 id="Mac-OSX-1"><a href="#Mac-OSX-1" class="headerlink" title="Mac OSX"></a>Mac OSX</h5><ul>
-<li>浏览器访问下载日历ics文件地址即可下载日历ics文件，双击导入。选择一个目录加入即可。</li>
-</ul>
-<h5 id="iOS-1"><a href="#iOS-1" class="headerlink" title="iOS"></a>iOS</h5><ul>
-<li>备忘录或者Safari打开下载日历ics文件地址链接</li>
-<li>提示如下图，点击右上角“添加全部”即可导入日历，或者点击某一项日程，可以单独添加某一项日程到日历应用中。</li>
-</ul>
-<p>######<br><img src="https://upload-images.jianshu.io/upload_images/1424124-e9d9c0fb97df2100.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="2"></p>
-<h2 id="Notes"><a href="#Notes" class="headerlink" title="Notes"></a>Notes</h2><ul>
-<li>目前已更新支持2019国家法定假期。</li>
+<hr>
+<h4 id="报错内容"><a href="#报错内容" class="headerlink" title="报错内容"></a>报错内容</h4><h5 id="library-not-found-for-lstdc-6-0-9"><a href="#library-not-found-for-lstdc-6-0-9" class="headerlink" title="library not found for -lstdc++.6.0.9"></a>library not found for -lstdc++.6.0.9</h5><h5 id="错误截图"><a href="#错误截图" class="headerlink" title="错误截图"></a>错误截图</h5><p><img src="https://echozuo-github-io.oss-cn-shanghai.aliyuncs.com/blog-hexo/2019-06-06/1.png" alt="1.png"></p>
+<h5 id="这个错误原因是因为iOS12-0之后去掉了lstdc-6-0-9-tbd动态库，如下图搜索便知："><a href="#这个错误原因是因为iOS12-0之后去掉了lstdc-6-0-9-tbd动态库，如下图搜索便知：" class="headerlink" title="这个错误原因是因为iOS12.0之后去掉了lstdc++.6.0.9.tbd动态库，如下图搜索便知："></a>这个错误原因是因为iOS12.0之后去掉了lstdc++.6.0.9.tbd动态库，如下图搜索便知：</h5><p><img src="https://echozuo-github-io.oss-cn-shanghai.aliyuncs.com/blog-hexo/2019-06-06/2.png" alt="2.png"></p>
+<h5 id="iOS12-0中全部采用libc-代替lstdc-的动态库（如下图），具体原因可以参考："><a href="#iOS12-0中全部采用libc-代替lstdc-的动态库（如下图），具体原因可以参考：" class="headerlink" title="iOS12.0中全部采用libc++代替lstdc++的动态库（如下图），具体原因可以参考："></a>iOS12.0中全部采用libc++代替lstdc++的动态库（如下图），具体原因可以参考：</h5><p><a href="http://www.cnblogs.com/wellbye/archive/2013/04/25/3039203.html" target="_blank" rel="noopener">http://www.cnblogs.com/wellbye/archive/2013/04/25/3039203.html</a><br><img src="https://echozuo-github-io.oss-cn-shanghai.aliyuncs.com/blog-hexo/2019-06-06/3.png" alt="3.png"></p>
+<h5 id="因为beta版本Xcode是无法打包上传appstore，所以肯定还是需要Xcode10-Xcode11并行使用，而且现在部分第三方SDK依旧要依赖于lstdc-6-0-9-tbd动态库，如果对代码进行改动或者修改Xcode的配置，可能会造成其他问题，例如在Xcode10上再次运行的时候可能会出现报错等等。"><a href="#因为beta版本Xcode是无法打包上传appstore，所以肯定还是需要Xcode10-Xcode11并行使用，而且现在部分第三方SDK依旧要依赖于lstdc-6-0-9-tbd动态库，如果对代码进行改动或者修改Xcode的配置，可能会造成其他问题，例如在Xcode10上再次运行的时候可能会出现报错等等。" class="headerlink" title="因为beta版本Xcode是无法打包上传appstore，所以肯定还是需要Xcode10+Xcode11并行使用，而且现在部分第三方SDK依旧要依赖于lstdc++.6.0.9.tbd动态库，如果对代码进行改动或者修改Xcode的配置，可能会造成其他问题，例如在Xcode10上再次运行的时候可能会出现报错等等。"></a>因为beta版本Xcode是无法打包上传appstore，所以肯定还是需要Xcode10+Xcode11并行使用，而且现在部分第三方SDK依旧要依赖于lstdc++.6.0.9.tbd动态库，如果对代码进行改动或者修改Xcode的配置，可能会造成其他问题，例如在Xcode10上再次运行的时候可能会出现报错等等。</h5><p>所以最简单解决该问题的方法就是从Xcode10中找到动态库lstdc++.6.0.9.tbd文件copy到Xcode 11 beta下就可以完美解决问题。或者用古老的办法将iOS13的DeviceSupport文件copy到Xcode11.0下也可以完美解决Xcode11.0运行iOS13的问题。</p>
+<hr>
+<h4 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h4><h5 id="需要将文件复制到下述四个路径下，才能保证模拟器和真机均好用"><a href="#需要将文件复制到下述四个路径下，才能保证模拟器和真机均好用" class="headerlink" title="需要将文件复制到下述四个路径下，才能保证模拟器和真机均好用"></a>需要将文件复制到下述四个路径下，才能保证模拟器和真机均好用</h5><h5 id="Xcode10下："><a href="#Xcode10下：" class="headerlink" title="Xcode10下："></a>Xcode10下：</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib/</span><br><span class="line">/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/</span><br><span class="line">/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/</span><br><span class="line">/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/lib/</span><br></pre></td></tr></table></figure>
+
+<h5 id="Xcode11-beta下："><a href="#Xcode11-beta下：" class="headerlink" title="Xcode11-beta下："></a>Xcode11-beta下：</h5><h5 id="主要是第一条"><a href="#主要是第一条" class="headerlink" title="主要是第一条"></a>主要是第一条<figure class="highlight plain"><figcaption><span>```的路径发生了变更，Xcode10中是```../Developer/Library/..```，而Xcode11中是```.../Library/Developer/...```</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">```</span><br><span class="line">/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib </span><br><span class="line">/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/</span><br><span class="line">/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/</span><br><span class="line">/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/lib/</span><br></pre></td></tr></table></figure></h5><h5 id="为了方便大家，在此提供lstdc-动态库文件下载和DeviceSupport下载-链接："><a href="#为了方便大家，在此提供lstdc-动态库文件下载和DeviceSupport下载-链接：" class="headerlink" title="为了方便大家，在此提供lstdc++动态库文件下载和DeviceSupport下载 链接："></a>为了方便大家，在此提供lstdc++动态库文件下载和DeviceSupport下载 链接：</h5><p><a href="https://pan.baidu.com/s/1M75jMFxAhfcqz-pFk739_Q" target="_blank" rel="noopener">libstdc</a></p>
+<p><a href="https://pan.baidu.com/s/1-tOrJIFpyGGNySsYiKP0AQ" target="_blank" rel="noopener">DeviceSupport(8.0-13.0beta) 所有版本</a></p>
+<p><a href="https://pan.baidu.com/s/1u0_5K8b_jGEMbLJC9Bnpqg" target="_blank" rel="noopener">DeviceSupport：iOS 7.0 - iOS 12 beta1 所有版本</a></p>
+<p><a href="https://pan.baidu.com/s/19V69jLQojVpv-VfHM6Y4zg" target="_blank" rel="noopener">iPhoneOS13.0.sdk</a></p>
+<h5 id="新增脚本处理方案：点击下载"><a href="#新增脚本处理方案：点击下载" class="headerlink" title="新增脚本处理方案：点击下载"></a>新增脚本处理方案：<a href="https://pan.baidu.com/s/1Hc7fGMiv5Ow1CaBYN0JTVA" target="_blank" rel="noopener">点击下载</a></h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">// install.sh：Xcode10.2.1及其以下</span><br><span class="line">// install-xcode-beta11.sh：Xcode11beta</span><br><span class="line">MacBook-Pro:~ EchoZuo$ cd /Users/EchoZuo/Desktop/xcode\ libstdc </span><br><span class="line">MacBook-Pro:xcode libstdc EchoZuo$ ./install-xcode-beta11.sh</span><br><span class="line">MacBook-Pro:xcode libstdc EchoZuo$ ./install.sh</span><br></pre></td></tr></table></figure>
+
+<h4 id="Info"><a href="#Info" class="headerlink" title="Info"></a>Info</h4><ul>
+<li>Github: <a href="https://github.com/EchoZuo" target="_blank" rel="noopener">https://github.com/EchoZuo</a></li>
+<li>jianshu: <a href="https://www.jianshu.com/u/3390ce71084e" target="_blank" rel="noopener">https://www.jianshu.com/u/3390ce71084e</a></li>
+<li>CSDN: <a href="https://blog.csdn.net/zuoqianheng" target="_blank" rel="noopener">https://blog.csdn.net/zuoqianheng</a></li>
+<li>Email: <a href="mailto:zuoqianheng@foxmail.com" target="_blank" rel="noopener">zuoqianheng@foxmail.com</a></li>
+<li>Telegram: @echozuo</li>
 </ul>
 
       
@@ -579,15 +573,13 @@
         
         <div class="post-tags">
           
-            <a href="/tags/Mac技巧/" rel="tag"><i class="fa fa-tag"></i> Mac技巧</a>
+            <a href="/tags/iOS/" rel="tag"><i class="fa fa-tag"></i> iOS</a>
           
-            <a href="/tags/Mac日历/" rel="tag"><i class="fa fa-tag"></i> Mac日历</a>
+            <a href="/tags/Xcode/" rel="tag"><i class="fa fa-tag"></i> Xcode</a>
           
-            <a href="/tags/iPhone日历/" rel="tag"><i class="fa fa-tag"></i> iPhone日历</a>
+            <a href="/tags/libstdc/" rel="tag"><i class="fa fa-tag"></i> libstdc++</a>
           
-            <a href="/tags/日历/" rel="tag"><i class="fa fa-tag"></i> 日历</a>
-          
-            <a href="/tags/共享/" rel="tag"><i class="fa fa-tag"></i> 共享</a>
+            <a href="/tags/Objective-C/" rel="tag"><i class="fa fa-tag"></i> Objective-C</a>
           
         </div>
       
@@ -600,8 +592,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2017/11/09/iOS FaceID&TouchID/" rel="next" title="iOS FaceID & TouchID">
-                <i class="fa fa-chevron-left"></i> iOS FaceID & TouchID
+              <a href="/2019/01/02/Mac&iPhone日历中加入国内法定假期（共享）2019 最新/" rel="next" title="Mac & iPhone 日历中加入国内法定假期（共享）2019 最新">
+                <i class="fa fa-chevron-left"></i> Mac & iPhone 日历中加入国内法定假期（共享）2019 最新
               </a>
             
           </div>
@@ -610,8 +602,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2019/06/06/libstdc-报错-190606/" rel="prev" title="Xcode10、Xcode 11 beta 运行libstdc++报错解决方案">
-                Xcode10、Xcode 11 beta 运行libstdc++报错解决方案 <i class="fa fa-chevron-right"></i>
+              <a href="/2019/06/07/删除文件后可用空间还变少了？/" rel="prev" title="Mac更新系统后 删除文件后可用空间还变少了？">
+                Mac更新系统后 删除文件后可用空间还变少了？ <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -880,7 +872,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#无数用户钟爱-Apple-自带「提醒事项」和「日历」应用，用来管理日常日程确实很方便，尤其是对于使用苹果三件套的用户来说多设备之间无缝衔接同步更为便利。但也因其功能限制，招人吐槽。例如无法查看国内节假日（老版本系统），无法查看国内法定假期补班调休等。"><span class="nav-number">1.</span> <span class="nav-text">无数用户钟爱 Apple 自带「提醒事项」和「日历」应用，用来管理日常日程确实很方便，尤其是对于使用苹果三件套的用户来说多设备之间无缝衔接同步更为便利。但也因其功能限制，招人吐槽。例如无法查看国内节假日（老版本系统），无法查看国内法定假期补班调休等。</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#那么，如何在Mac-OSX-或者iOS系统自带日历软件中加入中国节假日以及法定假期补班调休日历？"><span class="nav-number">2.</span> <span class="nav-text">那么，如何在Mac OSX 或者iOS系统自带日历软件中加入中国节假日以及法定假期补班调休日历？</span></a></li></ol><li class="nav-item nav-level-2"><a class="nav-link" href="#两种方式"><span class="nav-number"></span> <span class="nav-text">两种方式</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-订阅制"><span class="nav-number">1.</span> <span class="nav-text">1. 订阅制</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-直接下载导入日历"><span class="nav-number">2.</span> <span class="nav-text">2. 直接下载导入日历</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#订阅或者导入日历方式"><span class="nav-number"></span> <span class="nav-text">订阅或者导入日历方式</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#订阅地址："><span class="nav-number">0.1.</span> <span class="nav-text">订阅地址：</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#webcal-p10-calendars-icloud-com-published-2-MTI3Njk0MTQxNzEyNzY5NFRvxM53AOH-Px17vHeUETlZdUggoyEt2KnFiIqHg40FkRXfcQJjYoa2dULRarI9z4UlbHxK-kLOohfiRVSSP7Q"><span class="nav-number">0.1.1.</span> <span class="nav-text">webcal://p10-calendars.icloud.com/published/2/MTI3Njk0MTQxNzEyNzY5NFRvxM53AOH-Px17vHeUETlZdUggoyEt2KnFiIqHg40FkRXfcQJjYoa2dULRarI9z4UlbHxK-kLOohfiRVSSP7Q</span></a></li></ol></li><li class="nav-item nav-level-5"><a class="nav-link" href="#下载日历ics文件地址："><span class="nav-number">0.2.</span> <span class="nav-text">下载日历ics文件地址：</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#http-p10-calendars-icloud-com-published-2-MTI3Njk0MTQxNzEyNzY5NFRvxM53AOH-Px17vHeUETlZdUggoyEt2KnFiIqHg40FkRXfcQJjYoa2dULRarI9z4UlbHxK-kLOohfiRVSSP7Q"><span class="nav-number">0.2.1.</span> <span class="nav-text">http://p10-calendars.icloud.com/published/2/MTI3Njk0MTQxNzEyNzY5NFRvxM53AOH-Px17vHeUETlZdUggoyEt2KnFiIqHg40FkRXfcQJjYoa2dULRarI9z4UlbHxK-kLOohfiRVSSP7Q</span></a></li></ol></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#订阅制"><span class="nav-number">1.</span> <span class="nav-text">订阅制</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#Mac-OSX"><span class="nav-number">1.1.</span> <span class="nav-text">Mac OSX</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#iOS"><span class="nav-number">1.2.</span> <span class="nav-text">iOS</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#直接下载导入日历"><span class="nav-number">2.</span> <span class="nav-text">直接下载导入日历</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#Mac-OSX-1"><span class="nav-number">2.1.</span> <span class="nav-text">Mac OSX</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#iOS-1"><span class="nav-number">2.2.</span> <span class="nav-text">iOS</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Notes"><span class="nav-number"></span> <span class="nav-text">Notes</span></a></li></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#报错内容"><span class="nav-number">1.</span> <span class="nav-text">报错内容</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#library-not-found-for-lstdc-6-0-9"><span class="nav-number">1.1.</span> <span class="nav-text">library not found for -lstdc++.6.0.9</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#错误截图"><span class="nav-number">1.2.</span> <span class="nav-text">错误截图</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#这个错误原因是因为iOS12-0之后去掉了lstdc-6-0-9-tbd动态库，如下图搜索便知："><span class="nav-number">1.3.</span> <span class="nav-text">这个错误原因是因为iOS12.0之后去掉了lstdc++.6.0.9.tbd动态库，如下图搜索便知：</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#iOS12-0中全部采用libc-代替lstdc-的动态库（如下图），具体原因可以参考："><span class="nav-number">1.4.</span> <span class="nav-text">iOS12.0中全部采用libc++代替lstdc++的动态库（如下图），具体原因可以参考：</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#因为beta版本Xcode是无法打包上传appstore，所以肯定还是需要Xcode10-Xcode11并行使用，而且现在部分第三方SDK依旧要依赖于lstdc-6-0-9-tbd动态库，如果对代码进行改动或者修改Xcode的配置，可能会造成其他问题，例如在Xcode10上再次运行的时候可能会出现报错等等。"><span class="nav-number">1.5.</span> <span class="nav-text">因为beta版本Xcode是无法打包上传appstore，所以肯定还是需要Xcode10+Xcode11并行使用，而且现在部分第三方SDK依旧要依赖于lstdc++.6.0.9.tbd动态库，如果对代码进行改动或者修改Xcode的配置，可能会造成其他问题，例如在Xcode10上再次运行的时候可能会出现报错等等。</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#解决方案"><span class="nav-number">2.</span> <span class="nav-text">解决方案</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#需要将文件复制到下述四个路径下，才能保证模拟器和真机均好用"><span class="nav-number">2.1.</span> <span class="nav-text">需要将文件复制到下述四个路径下，才能保证模拟器和真机均好用</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#Xcode10下："><span class="nav-number">2.2.</span> <span class="nav-text">Xcode10下：</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#Xcode11-beta下："><span class="nav-number">2.3.</span> <span class="nav-text">Xcode11-beta下：</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#主要是第一条"><span class="nav-number">2.4.</span> <span class="nav-text">主要是第一条```的路径发生了变更，Xcode10中是```../Developer/Library/..```，而Xcode11中是```.../Library/Developer/...```12345```/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib//Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib//Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/lib/</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#为了方便大家，在此提供lstdc-动态库文件下载和DeviceSupport下载-链接："><span class="nav-number">2.5.</span> <span class="nav-text">为了方便大家，在此提供lstdc++动态库文件下载和DeviceSupport下载 链接：</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#新增脚本处理方案：点击下载"><span class="nav-number">2.6.</span> <span class="nav-text">新增脚本处理方案：点击下载</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Info"><span class="nav-number">3.</span> <span class="nav-text">Info</span></a></li></ol></div>
             
 
           </div>
